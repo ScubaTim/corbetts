@@ -12,7 +12,7 @@ import {
   DropdownMenu,
 } from "reactstrap";
 
-import "./style.scss";
+import "./styles.scss";
 
 const NavBar = (props) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -20,7 +20,7 @@ const NavBar = (props) => {
   const toggle = () => setDropdownOpen(!dropdownOpen);
 
   return (
-    <Nav tabs className="navbar navbar-dark bg-dark fixed-top">
+    <Nav tabs className="navbar navbar-light bg-light">
       <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
         <DropdownToggle nav>
           <i className="fa fa-bars"></i>
@@ -31,15 +31,17 @@ const NavBar = (props) => {
           <DropdownItem>Contact Us</DropdownItem>
         </DropdownMenu>
       </Dropdown>
-      <NavLink href="https://twitter.com/CorbettsBar">
-        <i class="fa fa-twitter"></i>{" "}
-      </NavLink>
-      <NavLink href="https://www.instagram.com/corbetts_bar/">
-        <i class="fa fa-instagram"></i>{" "}
-      </NavLink>
-      <NavLink href="https://www.facebook.com/corbetts.bar/">
-        <i class="fa fa-facebook"></i>{" "}
-      </NavLink>
+      <div className="d-flex flex-row">
+        <NavLink href="https://twitter.com/CorbettsBar">
+          <i class="fa fa-twitter"></i>{" "}
+        </NavLink>
+        <NavLink href="https://www.instagram.com/corbetts_bar/">
+          <i class="fa fa-instagram"></i>{" "}
+        </NavLink>
+        <NavLink href="https://www.facebook.com/corbetts.bar/">
+          <i class="fa fa-facebook"></i>{" "}
+        </NavLink>
+      </div>
     </Nav>
   );
 };
