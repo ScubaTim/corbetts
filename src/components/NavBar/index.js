@@ -6,32 +6,41 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Dropdown,
+  DropdownToggle,
+  DropdownItem,
+  DropdownMenu,
 } from "reactstrap";
 
-const NavBar = (props) => {
-  const [collapsed, setCollapsed] = useState(true);
+import "./style.scss";
 
-  const toggleNavbar = () => setCollapsed(!collapsed);
+const NavBar = (props) => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen(!dropdownOpen);
 
   return (
-    <div>
-      <Navbar color="faded" light>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <Collapse isOpen={!collapsed} navbar>
-          <Nav navbar>
-            <NavItem>
-              <NavLink href="/components/">Menu</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Beer</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/components/">Contact Us</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    </div>
+    <Nav tabs className="navbar navbar-dark bg-dark fixed-top">
+      <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
+        <DropdownToggle nav>
+          <i className="fa fa-bars"></i>
+        </DropdownToggle>
+        <DropdownMenu>
+          <DropdownItem>Menu</DropdownItem>
+          <DropdownItem>Drinks</DropdownItem>
+          <DropdownItem>Contact Us</DropdownItem>
+        </DropdownMenu>
+      </Dropdown>
+      <NavLink href="https://twitter.com/CorbettsBar">
+        <i class="fa fa-twitter"></i>{" "}
+      </NavLink>
+      <NavLink href="https://www.instagram.com/corbetts_bar/">
+        <i class="fa fa-instagram"></i>{" "}
+      </NavLink>
+      <NavLink href="https://www.facebook.com/corbetts.bar/">
+        <i class="fa fa-facebook"></i>{" "}
+      </NavLink>
+    </Nav>
   );
 };
 
