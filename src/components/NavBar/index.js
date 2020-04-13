@@ -38,13 +38,13 @@ const NavBar = (props) => {
       </NavItem>
       <NavItem className="d-flex flex-row">
         <NavLink href="https://twitter.com/CorbettsBar">
-          <i class="fa fa-twitter"></i>{" "}
+          <i className="fa fa-twitter"></i>{" "}
         </NavLink>
         <NavLink href="https://www.instagram.com/corbetts_bar/">
-          <i class="fa fa-instagram"></i>{" "}
+          <i className="fa fa-instagram"></i>{" "}
         </NavLink>
         <NavLink href="https://www.facebook.com/corbetts.bar/">
-          <i class="fa fa-facebook"></i>{" "}
+          <i className="fa fa-facebook"></i>{" "}
         </NavLink>
       </NavItem>
     </Nav>
