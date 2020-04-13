@@ -1,0 +1,19 @@
+
+.containerStyle {
+    border: 5px double #2a2c2b;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.paddedList > * {
+    font-weight: 500;
+    padding: 0.25rem;
+}
+
+.xlPadding {
+    padding: 0 10vw;
+}
