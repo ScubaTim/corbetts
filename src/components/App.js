@@ -7,9 +7,7 @@ import FoodMenu from "./FoodMenu";
 const App = () => {
   return (
     <React.Fragment>
-      <NavBar></NavBar>
       <Container>
-        <Header></Header>
         <FoodMenu></FoodMenu>
       </Container>
     </React.Fragment>

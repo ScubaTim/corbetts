@@ -8,14 +8,14 @@ const FoodMenu = () => {
         <React.Fragment>
             <Container className="containerStyle">
                 <div className="textCenter headingDiv">
-                    <h1>Menu</h1>
+                    <h1 className="bigText">Menu</h1>
                     <br />
                     <h4>Starters</h4>
                 </div>
                 <Row xs="1" sm="2" md="4">
                     <Col>
                         <h5>Jumbo Chicken Wings</h5>
-                        <h7>(10) $10.50 (20) $17.50</h7>
+                        <h6>(10) $10.50 (20) $17.50</h6>
                         <p>Served with celery and blue cheese.</p>
                         <p>Add $1.50 for grilled Daytona.</p>
                     </Col>
@@ -26,78 +26,78 @@ const FoodMenu = () => {
                     </Col>
                     <Col>
                         <h5>Smoked Fish Dip</h5>
-                        <h7>$8.55</h7>
+                        <h6>$8.55</h6>
                         <p>Served with Jalapenos, Pico, and Crackers.</p>
                     </Col>
                     <Col>
                         <h5>Potato Skins</h5>
-                        <h7>$8.55</h7>
+                        <h6>$8.55</h6>
                         <p>Your choice of Bacon and Cheese or Chili and Cheese.</p>
                     </Col>
                 </Row>
                 <Row xs="1" sm="2" md="4">
                     <Col>
                         <h5>Chicken Fingers and Fries</h5>
-                        <h7>$9.55</h7>
+                        <h6>$9.55</h6>
                         <p>Served with Honey Mustard or BBQ sauce.</p>
                     </Col>
                     <Col>
                         <h5>Chicken Quesadilla</h5>
-                        <h7>$9.55</h7>
+                        <h6>$9.55</h6>
                         <p>Served with Sour Cream and Pico.</p>
                     </Col>
                     <Col>
                         <h5>Nachos and Salsa</h5>
-                        <h7>$5.55</h7>
+                        <h6>$5.55</h6>
                         <p></p>
                     </Col>
                     <Col>
                         <h5>Nachos and Cheese</h5>
-                        <h7>$8.55</h7>
+                        <h6>$8.55</h6>
                         <p>Served with Lettuce, Tomato, Sour Cream, and Pico.</p>
                     </Col>
                 </Row>
                 <Row xs="1" sm="2" md="4">
                     <Col>
                         <h5>Chili Cheese Nachos</h5>
-                        <h7>$9.75</h7>
+                        <h6>$9.75</h6>
                         <p>Served with Lettuce, Tomato, Sour Cream, and Pico.</p>
                     </Col>
                     <Col>
                         <h5>Santa Fe Chicken Eggrolls</h5>
-                        <h7>$9.50</h7>
+                        <h6>$9.50</h6>
                         <p>Served with Sour Cream and Pico.</p>
                     </Col>
                     <Col>
                         <h5>Fried Mozzarella Sticks</h5>
-                        <h7>$6.00</h7>
+                        <h6>$6.00</h6>
                         <p>Served with Marinara dipping sauce.</p>
                     </Col>
                     <Col>
                         <h5>Corn Dog Bites</h5>
-                        <h7>$6.75</h7>
+                        <h6>$6.75</h6>
                         <p>Served with Honey Mustard.</p>
                     </Col>
                 </Row>
                 <Row xs="1" sm="2" md="4">
                     <Col>
                         <h5>Chili Cheese Nachos</h5>
-                        <h7>$9.75</h7>
+                        <h6>$9.75</h6>
                         <p>Served with Lettuce, Tomato, Sour Cream, and Pico.</p>
                     </Col>
                     <Col>
                         <h5>Santa Fe Chicken Eggrolls</h5>
-                        <h7>$9.50</h7>
+                        <h6>$9.50</h6>
                         <p>Served with Sour Cream and Pico.</p>
                     </Col>
                     <Col>
                         <h5>Fried Mozzarella Sticks</h5>
-                        <h7>$6.00</h7>
+                        <h6>$6.00</h6>
                         <p>Served with Marinara dipping sauce.</p>
                     </Col>
                     <Col>
                         <h5>Corn Dog Bites</h5>
-                        <h7>$6.75</h7>
+                        <h6>$6.75</h6>
                         <p>Served with Honey Mustard.</p>
                     </Col>
                 </Row>
