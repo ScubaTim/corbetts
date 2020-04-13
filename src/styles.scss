@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+
+$Oswald: 'Oswald', sans-serif;
+$OpenSans: 'Open Sans', sans-serif;
+
 $green: #005030 !default;
 $orange: #f47321 !default;
 $white: #fffcf2 !default;
@@ -7,4 +12,20 @@ $darkGrey: #2a2c2b !default;
 
 i {
   color: $orange;
+}
+
+* {
+  font-family: 'Open Sans';
+  background-color: $white;
+}
+
+.containerStyle {
+  border: 10px double #2a2c2b;
+  margin: 2rem auto;
+  padding: 2rem 7vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald';
+  font-weight: 800;
 }

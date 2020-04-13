@@ -3,13 +3,15 @@ import { Container, Row, Col } from 'reactstrap';
 import './FoodMenu.scss';
 
 
-const FoodMenu = (props) => {
+const FoodMenu = () => {
     return (
         <React.Fragment>
             <Container className="containerStyle">
-                <h2 className="textCenter">Menu</h2>
-                <h3>Starters</h3>
-                <br />
+                <div className="textCenter headingDiv">
+                    <h1>Menu</h1>
+                    <br />
+                    <h4>Starters</h4>
+                </div>
                 <Row xs="1" sm="2" md="4">
                     <Col>
                         <h5>Jumbo Chicken Wings</h5>
@@ -100,11 +102,12 @@ const FoodMenu = (props) => {
                     </Col>
                 </Row>
             </Container>
-            <Container className="containerStyle xlPadding">
-                <br />
-                <h2 className="textCenter">Beer And Wine</h2>
-                <h5 className="textCenter">Import, Craft, and Microbrew Bottles</h5>
-                <Row xs="2" s="2" md="2" lg="2" xl="3" className="textCenter paddedList">
+            <Container className="containerStyle textCenter">
+                <div className="headingDiv">
+                    <h2>Beer And Wine</h2>
+                    <h4>Import, Craft, and Microbrew Bottles</h4>
+                </div>
+                <Row xs="2" s="2" md="2" lg="2" xl="3" className=" paddedList">
                     <Col>Amstel Light</Col>
                     <Col>Angry Orchard</Col>
                     <Col>Bass Ale</Col>
@@ -133,8 +136,8 @@ const FoodMenu = (props) => {
                     <Col>White Claw Black Cherry</Col>
                 </Row>
                 <br />
-                <h5 className="textCenter">Domestic</h5>
-                <Row xs="2" s="2" md="2" lg="2" xl="3" className="textCenter paddedList">
+                <h4 className="textCenter headingDiv">Domestic</h4>
+                <Row xs="2" s="2" md="2" lg="2" xl="3" className=" paddedList">
                     <Col>Budweiser</Col>
                     <Col>Bud Light</Col>
                     <Col>Bud Light Seltzer</Col>
@@ -145,7 +148,6 @@ const FoodMenu = (props) => {
                     <Col>Pabst Blue Ribbon</Col>
                     <Col>Yuengling</Col>
                 </Row>
-
             </Container >
         </React.Fragment >
     );
