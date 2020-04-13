@@ -8,3 +8,10 @@ $darkGrey: #2a2c2b !default;
 i {
   color: $green;
 }
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: $green;
+}
