@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
+  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -11,6 +9,8 @@ import {
   DropdownItem,
   DropdownMenu,
 } from "reactstrap";
+
+import CorbettsText from "../../Images/corbetts-text.png";
 
 import "./styles.scss";
 
@@ -31,7 +31,12 @@ const NavBar = (props) => {
           <DropdownItem>Contact Us</DropdownItem>
         </DropdownMenu>
       </Dropdown>
-      <div className="d-flex flex-row">
+      <NavItem>
+        <NavbarBrand href="corbettsSportsBar.com">
+          <img src={CorbettsText} width="100%" alt="Corbett's logo"></img>
+        </NavbarBrand>
+      </NavItem>
+      <NavItem className="d-flex flex-row">
         <NavLink href="https://twitter.com/CorbettsBar">
           <i class="fa fa-twitter"></i>{" "}
         </NavLink>
@@ -41,7 +46,7 @@ const NavBar = (props) => {
         <NavLink href="https://www.facebook.com/corbetts.bar/">
           <i class="fa fa-facebook"></i>{" "}
         </NavLink>
-      </div>
+      </NavItem>
     </Nav>
   );
 };

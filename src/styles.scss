@@ -11,7 +11,19 @@ $lightGrey: #374140 !default;
 $darkGrey: #2a2c2b !default;
 
 i {
-  color: $orange;
+  color: $green;
+}
+i:hover,
+i:focus,
+i:active {
+  cursor: pointer;
+}
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: $green;
 }
 
 * {

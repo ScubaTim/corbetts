@@ -6,3 +6,12 @@ $white: #fffcf2 !default;
   background-color: $green;
   color: $white;
 }
+.navbar-brand {
+  width: 20vw;
+  margin: 0 auto;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+}

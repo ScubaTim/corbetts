@@ -1,5 +1,13 @@
-$green: #005030 !default;
+$green: #005030;
+$darkGrey: #2a2c2b;
 
 .green {
   color: $green;
+}
+
+.dark {
+  color: $darkGrey;
+}
+.card-body {
+  padding: 1rem;
 }

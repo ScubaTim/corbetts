@@ -1,0 +1,26 @@
+$darkGrey: #2a2c2b;
+$white: #fffcf2;
+$orange: #f47321;
+$darkWhite: #bdc3c7;
+
+.white {
+  background-color: $darkWhite;
+}
+.dark-grey-text {
+  color: $darkGrey;
+}
+
+.footer {
+  padding: 0;
+  margin: 0;
+  background-color: $darkGrey;
+  color: $white;
+  i {
+    color: $white;
+  }
+  i:hover,
+  i:active,
+  i:focus {
+    color: $orange;
+  }
+}
