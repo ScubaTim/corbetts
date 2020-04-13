@@ -1,15 +1,19 @@
-import React from 'react';
-import NavBar from './NavBar';
+import React from "react";
+import { Container } from "reactstrap";
+import NavBar from "./NavBar/index";
+import Header from "./Header/index";
+import Footer from "./Footer/index";
 
 const App = () => {
-    return (
-        <div>
-            <NavBar />
-            <p>Towels</p>
-
-        </div>
-    );
-}
-
+  return (
+    <React.Fragment>
+      <NavBar></NavBar>
+      <Container>
+        <Header></Header>
+        <Footer></Footer>
+      </Container>
+    </React.Fragment>
+  );
+};
 
 export default App;
