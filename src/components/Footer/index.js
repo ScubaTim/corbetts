@@ -3,7 +3,7 @@ import React from "react";
 import "./styles.scss";
 
 const Footer = (props) => (
-  <div className="footer text-center p-4">
+  <div id="contactUs" className="footer text-center p-4">
     <h2>Contact Us</h2>
     <span>
       <i className="fa fa-twitter p-2"></i>{" "}
