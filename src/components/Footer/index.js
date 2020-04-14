@@ -4,7 +4,7 @@ import { Button } from "reactstrap";
 import "./styles.scss";
 
 const Footer = (props) => (
-  <div className="footer text-center p-4">
+  <div id="contactUs" className="footer text-center p-4">
     <h2>Contact Us</h2>
     <h4>
       <i className="fa fa-twitter p-2"></i>{" "}

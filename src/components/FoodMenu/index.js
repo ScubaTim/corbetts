@@ -6,7 +6,7 @@ import './FoodMenu.scss';
 const FoodMenu = () => {
     return (
         <React.Fragment>
-            <Container className="containerStyle">
+            <Container id="foodMenu" className="containerStyle">
                 <div className="text-center">
                     <h1 className="bigText">Menu</h1>
                     <h3 className="my-4">Starters</h3>
@@ -299,7 +299,7 @@ const FoodMenu = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container className="containerStyle text-center">
+            <Container id="drinks" className="containerStyle text-center">
                 <div>
                     <h2 className="bigText">Beer And Wine</h2>
                     <h4 className="my-4">Import, Craft, and Microbrew Bottles</h4>

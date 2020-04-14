@@ -27,9 +27,9 @@ const NavBar = (props) => {
             <h1><i className="fa fa-bars"></i></h1>
           </DropdownToggle>
           <DropdownMenu>
-            <DropdownItem>Menu</DropdownItem>
-            <DropdownItem>Drinks</DropdownItem>
-            <DropdownItem>Contact Us</DropdownItem>
+            <DropdownItem href='#foodMenu'>Menu</DropdownItem>
+            <DropdownItem href='#drinks'>Drinks</DropdownItem>
+            <DropdownItem href='#contactUs'>Contact Us</DropdownItem>
           </DropdownMenu>
         </Dropdown>
       </NavItem>
