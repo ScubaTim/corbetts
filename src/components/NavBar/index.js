@@ -21,30 +21,30 @@ const NavBar = (props) => {
 
   return (
     <Nav tabs className="navbar navbar-light bg-light">
-      <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
-        <DropdownToggle nav>
-          <i className="fa fa-bars"></i>
-        </DropdownToggle>
-        <DropdownMenu>
-          <DropdownItem>Menu</DropdownItem>
-          <DropdownItem>Drinks</DropdownItem>
-          <DropdownItem>Contact Us</DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
       <NavItem>
-        <NavbarBrand href="corbettsSportsBar.com">
-          <img src={CorbettsText} width="100%" alt="Corbett's logo"></img>
-        </NavbarBrand>
+        <Dropdown nav isOpen={dropdownOpen} toggle={toggle}>
+          <DropdownToggle nav>
+            <h1><i className="fa fa-bars"></i></h1>
+          </DropdownToggle>
+          <DropdownMenu>
+            <DropdownItem>Menu</DropdownItem>
+            <DropdownItem>Drinks</DropdownItem>
+            <DropdownItem>Contact Us</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
       </NavItem>
-      <NavItem className="d-flex flex-row">
+      <NavbarBrand href="corbettsSportsBar.com" className="navbarBrand absoluteCenter">
+        <img src={CorbettsText} width='100%' alt="Corbett's logo"></img>
+      </NavbarBrand>
+      <NavItem className="d-flex justify-content-between">
         <NavLink href="https://twitter.com/CorbettsBar">
-          <i className="fa fa-twitter"></i>{" "}
+          <h4><i className="fa fa-twitter"></i></h4>
         </NavLink>
         <NavLink href="https://www.instagram.com/corbetts_bar/">
-          <i className="fa fa-instagram"></i>{" "}
+          <h4><i className="fa fa-instagram"></i></h4>
         </NavLink>
         <NavLink href="https://www.facebook.com/corbetts.bar/">
-          <i className="fa fa-facebook"></i>{" "}
+          <h4><i className="fa fa-facebook"></i></h4>
         </NavLink>
       </NavItem>
     </Nav>

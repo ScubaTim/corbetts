@@ -18,7 +18,7 @@ const Header = () => {
       </Row>
       <Row className="my-2">
         <Col>
-          <h1>We are Open For Carry Out &#38; Delivery</h1>
+          <h1>We are Open For Carry Out &#38; Delivery!</h1>
         </Col>
       </Row>
       <Row className="my-2">

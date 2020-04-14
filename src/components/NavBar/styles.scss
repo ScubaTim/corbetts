@@ -6,10 +6,33 @@ $white: white !default;
   background-color: $green;
   color: $white;
 }
-.navbar-brand {
-  width: 20vw;
-  margin: 0 auto;
+
+@media (min-width: 650px) {
+  .absoluteCenter {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
 }
+.navbarBrand {
+  margin-top: 3px;
+  width: 33%;
+}
+@media (min-width: 768px) { 
+  .navbarBrand {
+    width: 25%;
+  }
+ }
+@media (min-width: 992px) { 
+  .navbarBrand {
+    width: 20%;
+  }
+ }
+ @media (min-width: 1200px) { 
+  .navbarBrand {
+    width: 250px;
+  }
+ }
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
