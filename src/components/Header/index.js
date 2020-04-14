@@ -30,8 +30,8 @@ const Header = () => {
       <Row className="mt-3">
         <Col>
           <h5>To Place a Carry Out Order Call Us At:</h5>
-          <h2 className="my-3"><i className="m-1 fa fa-mobile"></i>(305) 238-0823</h2>
-          <h5><a href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw" className='btn btn-outline-success mt-2'><strong>OR Place an Order With Uber Eats</strong></a></h5>
+          <h2 className="my-3"><i className="mr-2 fa fa-mobile"></i>(305) 238-0823</h2>
+          <h5><a href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw" className='btn btn-success mt-2'><strong>OR Place an Order With Uber Eats</strong></a></h5>
         </Col>
       </Row>
     </Container>
