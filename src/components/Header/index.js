@@ -12,15 +12,15 @@ import "./styles.scss";
 import CorbettsMug from "../../Images/corbetts-mug.png";
 
 const Header = (props) => (
-  <Card body outline color="dark" className="text-center mt-2">
-    <CardImg top width="50%" src={CorbettsMug} alt="Card image cap" />
+  <Card body className="text-center containerStyle mt-3">
+    <CardImg top className='logo' src={CorbettsMug} alt="Corbettes Logo" />
     <CardBody>
       <CardTitle>
-        <h1>We Are Open For Carry Out &#38; Delivery</h1>
+        <h3>We Are Open For Carry Out &#38; Delivery</h3>
       </CardTitle>
       <CardSubtitle>
         <h4>Buy One Get One Free on all in-stock Beer &#38; Wine </h4>
-        <span>(With any food purchase, while supplies last)</span>
+        <p>(With any food purchase, while supplies last)</p>
       </CardSubtitle>
       <CardText className="mt-2">
         <span className="mb-1">To Place a Carry Out Order Call</span>
