@@ -6,7 +6,6 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button,
 } from "reactstrap";
 
 import "./styles.scss";
@@ -24,11 +23,11 @@ const Header = (props) => (
         <span>(With any food purchase, while supplies last)</span>
       </CardSubtitle>
       <CardText className="mt-2">
-        <p className="mb-1">To Place a Carry Out Order Call</p>
-        <h2 className="green">
+        <span className="mb-1">To Place a Carry Out Order Call</span>
+        <span className="green">
           <i className="fa fa-mobile"></i> (305) 238-0823
-        </h2>{" "}
-        <p>
+        </span>{" "}
+        <span>
           Or Place an Order With{" "}
           <a
             href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw"
@@ -36,7 +35,7 @@ const Header = (props) => (
           >
             <strong>Uber Eats</strong>
           </a>{" "}
-        </p>
+        </span>
       </CardText>
     </CardBody>
   </Card>
