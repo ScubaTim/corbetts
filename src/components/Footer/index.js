@@ -1,27 +1,28 @@
 import React from "react";
-import { Button } from "reactstrap";
 
 import "./styles.scss";
 
 const Footer = (props) => (
   <div id="contactUs" className="footer text-center p-4">
     <h2>Contact Us</h2>
-    <h4>
+    <span>
       <i className="fa fa-twitter p-2"></i>{" "}
       <i className="fa fa-instagram p-2"></i>{" "}
       <i className="fa fa-facebook p-2"></i>{" "}
-    </h4>
-    <h4>
+    </span>
+    <p className="font-weight-bold">
       <i className="fa fa-mobile"></i> (305) 238-0823
-    </h4>{" "}
-    <h4>
+    </p>{" "}
+    <p>
       {" "}
       <i className="fa fa-envelope"></i> corbsports@aol.com
-    </h4>
-    <h5>12721 S Dixie Hwy Pinecrest, Florida 33156</h5>
-    <h2>Hours</h2>
-    <h5>Sunday - Thursday 11am - 9pm</h5>
-    <h5>Friday - Saturdau 11am - 10pm</h5>
+    </p>
+    <p>12721 S Dixie Hwy Pinecrest, Florida 33156</p>
+    <div className="m-2 p-2">
+      <h2>Hours</h2>
+      <p>Sunday - Thursday 11am - 9pm</p>
+      <p>Friday - Saturday 11am - 10pm</p>
+    </div>
     <span>Corbett's Sports Bar &copy; 2020</span>
   </div>
 );

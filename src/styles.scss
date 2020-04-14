@@ -27,11 +27,11 @@ a:visited {
 }
 
 * {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 .containerStyle {
-  border: 10px double #2a2c2b;
+  border: 10px double $green;
   margin: 2rem auto;
   padding: 1rem 2rem;
 }

@@ -2,6 +2,9 @@ $orange: #f47321 !default;
 $green: #005030 !default;
 $white: white !default;
 
+.dropdown-item {
+  font-size: 20px;
+}
 .dropdown-item:hover {
   background-color: $green;
   color: $white;
@@ -33,6 +36,12 @@ $white: white !default;
     width: 250px;
   }
  }
+
+i:hover,
+i:active,
+i:focus {
+  color: $orange;
+}
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {

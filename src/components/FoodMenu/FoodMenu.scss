@@ -13,6 +13,19 @@ $white: white !default;
     width: 60vw;
   }
  }
+$orange: #f47321;
+
+.containerStyle {
+  background-color: $white;
+
+  h4 {
+    color: $orange;
+  }
+
+  .bigText {
+    font-size: 4rem;
+  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 

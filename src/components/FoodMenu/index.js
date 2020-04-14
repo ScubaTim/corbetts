@@ -1,7 +1,6 @@
-import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import './FoodMenu.scss';
-
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import "./FoodMenu.scss";
 
 const FoodMenu = () => {
     return (
@@ -343,6 +342,14 @@ const FoodMenu = () => {
                     <Col>O'Doul's N-A</Col>
                     <Col>Pabst Blue Ribbon</Col>
                     <Col>Yuengling</Col>
+                </Row>
+                <br />
+                <h4 className="text-center mb-2">Wine</h4>
+                <Row xs="2" s="2" md="2" lg="2" xl="3" className=" paddedList">
+                    <Col>Woodbridge (187ml)</Col>
+                    <Col>Pinot Grigio</Col>
+                    <Col>Merlot</Col>
+                    <Col>White Zinfandel</Col>
                 </Row>
             </Container >
         </React.Fragment >
