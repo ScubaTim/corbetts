@@ -1,17 +1,29 @@
 $white: white !default;
-
-.containerStyle {
-  background-color: $white;
-}
-
-.textCenter {
-  text-align: center;
-}
-
-.headingDiv {
-  margin-bottom: 2rem;
-}
-
 .paddedList > * {
   padding: 0.4rem;
 }
+
+.responsiveText {
+  width: 100%;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  .responsiveText {
+    width: 60vw;
+  }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .responsiveText {
+    width: 30vw;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .responsiveText {
+    width: 35vw;
+  }
+ }

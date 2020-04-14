@@ -33,8 +33,12 @@ a:visited {
 .containerStyle {
   border: 10px double #2a2c2b;
   margin: 2rem auto;
-  padding: 2rem 7vw;
+  padding: 1rem;
 }
+
+.containerStyle2 {
+  border: 20px double #2a2c2b;
+};
 
 .bigText {
   font-size: 4rem;

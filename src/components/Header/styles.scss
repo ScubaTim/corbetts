@@ -2,41 +2,38 @@ $green: #005030;
 $darkGrey: #2a2c2b;
 
 .logo {
-  width: 85%;
+  width: 65%;
   margin: auto;
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
   .logo {
-    width: 75%;
+    width: 55%;
   }
  }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
   .logo {
-    width: 55%;
+    width: 45%;
   }
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
   .logo {
-    width: 45%;
+    width: 35%;
   }
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
   .logo {
-    width: 35%;
+    width: 25%;
   }
  }
 
 .dark {
   color: $darkGrey;
-}
-.card-body {
-  padding: 1rem;
 }
