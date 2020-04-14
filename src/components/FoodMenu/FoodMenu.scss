@@ -1,15 +1,16 @@
 $white: white !default;
+$orange: #f47321;
 
 .containerStyle {
   background-color: $white;
-}
 
-.textCenter {
-  text-align: center;
-}
+  h4 {
+    color: $orange;
+  }
 
-.headingDiv {
-  margin-bottom: 2rem;
+  .bigText {
+    font-size: 4rem;
+  }
 }
 
 .paddedList > * {
