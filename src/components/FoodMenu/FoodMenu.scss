@@ -1,11 +1,17 @@
+$white: #fffcf2 !default;
+
+.containerStyle {
+  background-color: $white;
+}
+
 .textCenter {
-    text-align: center;
+  text-align: center;
 }
 
 .headingDiv {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .paddedList > * {
-    padding: 0.4rem;
+  padding: 0.4rem;
 }
