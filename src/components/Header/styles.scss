@@ -1,5 +1,6 @@
 $green: #005030;
 $darkGrey: #2a2c2b;
+$orange: #f47321;
 
 .logo {
   width: 65%;
@@ -7,35 +8,48 @@ $darkGrey: #2a2c2b;
 }
 .btn-success {
   background-color: $green;
+  color: white;
+}
+
+.btn-success:visited {
+  background-color: $green;
+  color: white;
+}
+
+.btn-success:hover,
+.btn-success:active {
+  background-color: $orange;
+  border-color: $orange;
+  color: white;
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
   .logo {
     width: 55%;
   }
- }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .logo {
     width: 45%;
   }
- }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .logo {
     width: 35%;
   }
- }
+}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
   .logo {
     width: 25%;
   }
- }
+}
 
 .dark {
   color: $darkGrey;

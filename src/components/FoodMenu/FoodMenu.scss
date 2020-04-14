@@ -1,4 +1,7 @@
 $white: white !default;
+$orange: #f47321;
+$green: #005030;
+
 .paddedList > * {
   padding: 0.4rem;
 }
@@ -8,18 +11,21 @@ $white: white !default;
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
   .responsiveText {
     width: 60vw;
   }
- }
-$orange: #f47321;
+}
 
 .containerStyle {
   background-color: $white;
 
-  h4 {
+  h4,
+  h3 {
     color: $orange;
+  }
+  .green-text {
+    color: $green;
   }
 
   .bigText {
@@ -28,15 +34,15 @@ $orange: #f47321;
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .responsiveText {
     width: 30vw;
   }
- }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .responsiveText {
     width: 35vw;
   }
- }
+}
