@@ -38,7 +38,7 @@ a:visited {
 
 .containerStyle2 {
   border: 20px double #2a2c2b;
-};
+}
 
 .bigText {
   font-size: 4rem;
@@ -52,4 +52,20 @@ h5,
 h6 {
   font-family: "Oswald";
   font-weight: 800;
+}
+
+.uber-eats-container {
+  width: 100%;
+  border: 10px double $green;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+
+  a,
+  a:hover,
+  a:focus,
+  a:active,
+  a:visited {
+    text-decoration: none;
+    color: $orange;
+  }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Button } from "reactstrap";
+import { Container } from "reactstrap";
 
 import UrberEats from "../Images/uber-eats.png";
 
@@ -15,12 +15,12 @@ const App = () => {
       <Container>
         <Header></Header>
         <FoodMenu></FoodMenu>
-        <Button size="sm">
-          Delivery with
+        <h2 className="text-center uber-eats-container">
           <a href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw">
-            <img src={UrberEats} width="15%"></img>
+            Delivery with
+            <img src={UrberEats} width="15%" alt="Uber Eats Logo"></img>
           </a>
-        </Button>
+        </h2>
         <Footer></Footer>
       </Container>
     </React.Fragment>
