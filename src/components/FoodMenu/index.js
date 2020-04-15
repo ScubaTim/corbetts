@@ -239,7 +239,7 @@ const FoodMenu = () => {
           </div>
         </Row>
         <h3 className="text-center my-4">Extra Toppings</h3>
-        <Row xs="4" sm="6" className="text-center">
+        <Row xs="2" sm="6" className="text-center">
           <Col>
             <h6>Cheese</h6>
             <p>$1.00</p>
@@ -274,7 +274,7 @@ const FoodMenu = () => {
           </Col>
         </Row>
         <h3 className="text-center mb-4">Sides</h3>
-        <Row xs="4" sm="6" className="text-center">
+        <Row xs="2" sm="6" className="text-center">
           <Col>
             <h6>Large Fries</h6>
             <p>$4.50</p>
@@ -319,8 +319,8 @@ const FoodMenu = () => {
       </Container>
       <Container id="drinks" className="containerStyle text-center">
         <div>
-          <h2 className="bigText">Beer And Wine</h2>
-          <h4 className="my-4">Import, Craft, and Microbrew Bottles</h4>
+          <h2 className="bigText">Beer &#38; Wine</h2>
+          <h4 className="my-4">Import, Craft, &#38; Microbrew Bottles</h4>
         </div>
         <Row xs="1" s="2" md="2" lg="2" xl="3" className="my-4 paddedList">
           <Col>Amstel Light</Col>

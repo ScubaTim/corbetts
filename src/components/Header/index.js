@@ -6,7 +6,7 @@ import CorbettsMug from "../../Images/corbetts-mug.png";
 
 const Header = () => {
   return (
-    <Container className="containerStyle text-center">
+    <Container className="containerStyle text-center" style={{ margin: "1rem auto" }}>
       <Row className="mt-2 mb-4">
         <Col>
           <img className="logo" src={CorbettsMug} alt="Corbettes Mug Logo" />
