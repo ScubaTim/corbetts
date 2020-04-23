@@ -13,7 +13,7 @@ const FoodMenu = () => {
         <Row xs="1" sm="2" md="4">
           <Col>
             <h5>Jumbo Chicken Wings</h5>
-            <h6>(10) $10.50 (20) $17.50</h6>
+            <h6>(10) $10.99 (20) $21.49</h6>
             <p>
               Served with celery and blue cheese. <br />
               Add $1.50 for grilled Daytona.
@@ -29,58 +29,68 @@ const FoodMenu = () => {
           </Col>
           <Col>
             <h5>Smoked Fish Dip</h5>
-            <h6>$8.55</h6>
+            <h6>$8.99</h6>
             <p>Served with Jalapenos, Pico, and Crackers.</p>
           </Col>
           <Col>
             <h5>Potato Skins</h5>
-            <h6>$8.55</h6>
+            <h6>$8.99</h6>
             <p>Your choice of Bacon and Cheese or Chili and Cheese.</p>
           </Col>
           <Col>
             <h5>Chicken Fingers and Fries</h5>
-            <h6>$9.55</h6>
+            <h6>$9.99</h6>
             <p>Served with Honey Mustard or BBQ sauce.</p>
           </Col>
           <Col>
             <h5>Chicken Quesadilla</h5>
-            <h6>$9.55</h6>
+            <h6>$10.49</h6>
+            <p>Served with Sour Cream and Pico.</p>
+          </Col>
+          <Col>
+            <h5>Beef Quesadilla</h5>
+            <h6>$10.49</h6>
             <p>Served with Sour Cream and Pico.</p>
           </Col>
           <Col>
             <h5>Nachos and Salsa</h5>
-            <h6>$5.55</h6>
+            <h6>$5.59</h6>
             <p></p>
           </Col>
           <Col>
             <h5>Nachos and Cheese</h5>
-            <h6>$8.55</h6>
+            <h6>$8.89</h6>
             <p>Served with Lettuce, Tomato, Sour Cream, and Pico.</p>
           </Col>
           <Col>
             <h5>Chili Cheese Nachos</h5>
-            <h6>$9.75</h6>
+            <h6>$9.99</h6>
             <p>Served with Lettuce, Tomato, Sour Cream, and Pico.</p>
           </Col>
           <Col>
             <h5>Santa Fe Chicken Eggrolls</h5>
-            <h6>$9.50</h6>
+            <h6>$9.99</h6>
             <p>Served with Sour Cream and Pico.</p>
           </Col>
           <Col>
             <h5>Fried Mozzarella Sticks</h5>
-            <h6>$6.00</h6>
+            <h6>$6.49</h6>
             <p>Served with Marinara dipping sauce.</p>
           </Col>
           <Col>
             <h5>Corn Dog Bites</h5>
-            <h6>$6.75</h6>
+            <h6>$6.89</h6>
             <p>Served with Honey Mustard.</p>
           </Col>
           <Col>
             <h5>Fried Pork Potstickers</h5>
-            <h6>$7.25</h6>
+            <h6>$7.49</h6>
             <p>Served with Asian sauce.</p>
+          </Col>
+          <Col>
+            <h5>Fried Mushrooms</h5>
+            <h6>$6.99</h6>
+            <p>Served with horsey sauce</p>
           </Col>
         </Row>
         <h3 className="text-center my-4">Salads</h3>
@@ -145,22 +155,22 @@ const FoodMenu = () => {
         <Row xs="1" sm="2" md="4" className="my-2">
           <Col>
             <h5>Corbett's Burger</h5>
-            <h6>$8.50</h6>
+            <h6>$8.99</h6>
             <p>7oz of grilled perfection</p>
           </Col>
           <Col>
             <h5>Bigger Burger</h5>
-            <h6>$11.50</h6>
+            <h6>$11.99</h6>
             <p>12oz. Bigger burger for bigger hunger</p>
           </Col>
           <Col>
             <h5>Mini Burgers (3)</h5>
-            <h6>$7.00</h6>
+            <h6>$7.49</h6>
             <p>With Grilled Onions and Pickles</p>
           </Col>
           <Col>
             <h5>Patty Melt</h5>
-            <h6>$10.00</h6>
+            <h6>$10.49</h6>
             <p>With Grilled Onions and Cheese</p>
           </Col>
         </Row>
@@ -168,7 +178,7 @@ const FoodMenu = () => {
         <Row xs="1" sm="2" md="4">
           <Col>
             <h5>Grilled Chicken Breast Sandwich</h5>
-            <h6>$8.55</h6>
+            <h6>$8.99</h6>
             <p></p>
           </Col>
           <Col>
@@ -183,47 +193,47 @@ const FoodMenu = () => {
           </Col>
           <Col>
             <h5>Corbett's 1/2LB Hot Dog</h5>
-            <h6>$8.00</h6>
+            <h6>$8.49</h6>
             <p></p>
           </Col>
           <Col>
             <h5>Beef Philly</h5>
-            <h6>$9.55</h6>
+            <h6>$9.99</h6>
             <p>With Peppers, Mushrooms, Onions and Cheese</p>
           </Col>
           <Col>
             <h5>Chicken Philly</h5>
-            <h6>$9.55</h6>
+            <h6>$9.99</h6>
             <p>With Peppers, Mushrooms, Onions and Cheese</p>
           </Col>
           <Col>
             <h5>Corbett's Club</h5>
-            <h6>$9.55</h6>
+            <h6>$9.99</h6>
             <p>With Turkey, Ham, or Both</p>
           </Col>
           <Col>
             <h5>Turkey Breast Sandwich</h5>
-            <h6>$8.00</h6>
+            <h6>$8.49</h6>
             <p></p>
           </Col>
           <Col>
             <h5>Turkey Melt</h5>
-            <h6>$8.75</h6>
+            <h6>$8.99</h6>
             <p>Grilled with your choice of Cheese</p>
           </Col>
           <Col>
             <h5>Ham and Cheese</h5>
-            <h6>$8.75</h6>
+            <h6>$8.99</h6>
             <p>Served Grilled or Cold with your choice of Cheese</p>
           </Col>
           <Col>
             <h5>Corbett's Classic BLT</h5>
-            <h6>$6.55</h6>
+            <h6>$6.99</h6>
             <p></p>
           </Col>
           <Col>
             <h5>Grilled Cheese</h5>
-            <h6>$5.50</h6>
+            <h6>$5.99</h6>
             <p></p>
           </Col>
         </Row>
@@ -277,7 +287,7 @@ const FoodMenu = () => {
         <Row xs="2" sm="6" className="text-center">
           <Col>
             <h6>Large Fries</h6>
-            <p>$4.50</p>
+            <p>$4.99</p>
           </Col>
           <Col>
             <h6>Small Fries</h6>
@@ -285,15 +295,15 @@ const FoodMenu = () => {
           </Col>
           <Col>
             <h6>Cheese Fries</h6>
-            <p>$5.50</p>
+            <p>$5.99</p>
           </Col>
           <Col>
             <h6>Chili Cheese Fries</h6>
-            <p>$3.00</p>
+            <p>$6.99</p>
           </Col>
           <Col>
             <h6>Onion Rings</h6>
-            <p>$5.50</p>
+            <p>$5.89</p>
           </Col>
           <Col>
             <h6>Sweet Potato Fries</h6>
@@ -304,16 +314,16 @@ const FoodMenu = () => {
             <p>$1.00</p>
           </Col>
           <Col>
-            <h6>Extra Veggies</h6>
+            <h6>Extra Celery</h6>
             <p>$1.00</p>
           </Col>
           <Col>
             <h6>Side Salad</h6>
-            <p>$4.00</p>
+            <p>$4.49</p>
           </Col>
           <Col>
             <h6>Side Caesar</h6>
-            <p>$4.50</p>
+            <p>$4.99</p>
           </Col>
         </Row>
       </Container>
@@ -370,6 +380,7 @@ const FoodMenu = () => {
           <Col>Merlot</Col>
           <Col>White Zinfandel</Col>
         </Row>
+        <h6 className="mt-5">Must be 21 or over to purchase or consume alcohol. Please Drink Responsibly.</h6>
       </Container>
     </React.Fragment>
   );

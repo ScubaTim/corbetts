@@ -14,11 +14,11 @@ const App = () => {
       <NavBar />
       <h5 className="m-3 text-center"><em>Good Food, Cold Drinks, Great People.</em></h5>
       <Container>
-        <Header></Header>
-        <FoodMenu></FoodMenu>
+        <Header />
+        <FoodMenu />
         <UberEats />
-        <Footer></Footer>
       </Container>
+      <Footer />
     </React.Fragment>
   );
 };
