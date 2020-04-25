@@ -37,7 +37,7 @@ const Header = () => {
               href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw"
               className="btn btn-success mt-2"
             >
-              <strong> Place an Order With Uber Eats</strong>
+              <h2> Place an Order With Uber Eats</h2>
             </a>
           </h5>
         </Col>
