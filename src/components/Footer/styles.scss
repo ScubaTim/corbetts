@@ -3,31 +3,8 @@ $white: white;
 $orange: #f47321;
 $darkWhite: #bdc3c7;
 
-.white {
-  background-color: $darkWhite;
-}
-.dark-grey-text {
-  color: $darkGrey;
-}
-.orange-text {
-  color: $orange;
-}
 
 .footer {
-  padding: 0;
-  margin: 0;
   background-color: $darkGrey;
   color: $white;
-  i {
-    color: $white;
-    font-size: 20px;
-  }
-  i:hover,
-  i:active,
-  i:focus {
-    color: $orange;
-  }
-  p {
-    font-size: 18px;
-  }
 }

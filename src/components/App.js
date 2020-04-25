@@ -1,28 +1,24 @@
 import React from "react";
 import { Container } from "reactstrap";
 
-import UrberEats from "../Images/uber-eats.png";
 
-import NavBar from "./NavBar/index";
-import Header from "./Header/index";
+import NavBar from "./NavBar";
+import Header from "./Header";
 import FoodMenu from "./FoodMenu";
-import Footer from "./Footer/index";
+import UberEats from "./UberEats";
+import Footer from "./Footer";
 
 const App = () => {
   return (
     <React.Fragment>
       <NavBar />
+      <h5 className="m-3 text-center"><em>Good Food, Cold Drinks, Great People.</em></h5>
       <Container>
-        <Header></Header>
-        <FoodMenu></FoodMenu>
-        <h2 className="text-center uber-eats-container">
-          <a href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw">
-            Delivery with
-            <img src={UrberEats} width="15%" alt="Uber Eats Logo"></img>
-          </a>
-        </h2>
-        <Footer></Footer>
+        <Header />
+        <FoodMenu />
+        <UberEats />
       </Container>
+      <Footer />
     </React.Fragment>
   );
 };

@@ -24,7 +24,7 @@ $orange: #f47321;
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (min-width: 376px) {
   .logo {
     width: 55%;
   }
@@ -41,13 +41,6 @@ $orange: #f47321;
 @media (min-width: 992px) {
   .logo {
     width: 35%;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .logo {
-    width: 25%;
   }
 }
 

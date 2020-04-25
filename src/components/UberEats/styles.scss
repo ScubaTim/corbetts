@@ -1,0 +1,40 @@
+$green: #005030 !default;
+$orange: #f47321 !default;
+
+.uberEatsContainer {
+    display: flex;
+    flex-direction: row;
+    border: 10px double $green;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+  
+    a,
+    a:hover,
+    a:focus,
+    a:active,
+    a:visited {
+      text-decoration: none;
+      color: $orange;
+    }
+  }
+  
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 300px) {
+    .uberLogo {
+      width: 125px;
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .uberLogo {
+      width: 150px;
+    }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .uberLogo {
+      width: 175px;
+    }
+  }
