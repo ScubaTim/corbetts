@@ -7,4 +7,42 @@ $darkWhite: #bdc3c7;
 .footer {
   background-color: $darkGrey;
   color: $white;
+  font-size: 12px;
 }
+
+@media (min-width: 650px) {
+.footer h2 {
+  font-size: 3rem;
+}
+.footer h5 {
+  font-size: 2rem;
+}
+.footer h6 {
+  font-size: 1.5rem;
+}
+.hours {
+  font-size: 1rem
+}
+.address {
+  margin-top: 1rem !important;
+  font-size: 1rem;
+}
+}
+
+@media (min-width: 768px) { 
+  .footer h2 {
+    font-size: 3.5rem;
+  }
+  .footer h5 {
+    font-size: 2.5rem;
+  }
+  .footer h6 {
+    font-size: 2rem;
+  }
+  .hours {
+    font-size: 1.25rem
+  }
+  .address {
+    font-size: 1rem;
+  }
+ }
