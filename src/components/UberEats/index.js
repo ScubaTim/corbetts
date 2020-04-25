@@ -9,7 +9,7 @@ const UberEats = () => {
         <div className="uberEatsContainer">
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto' }}>
                 <a href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw"><h2 className="text-center">Delivery with</h2></a>
-                <img className="uberLogo" src={UrberEats} width="100%" alt="Uber Eats Logo"></img>
+                <a href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw"><img className="uberLogo" src={UrberEats} width="100%" alt="Uber Eats Logo"></img></a>
             </div>
         </div>
     );

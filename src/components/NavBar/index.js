@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   NavbarBrand,
   Nav,
-  NavItem,
   NavLink,
   Dropdown,
   DropdownToggle,
@@ -36,14 +35,14 @@ const NavBar = () => {
         <img src={CorbettsText} width='100%' alt="Corbett's logo"></img>
       </NavbarBrand>
       <div className="d-flex justify-content-between">
+        <NavLink href="https://www.facebook.com/corbetts.bar/">
+          <h6><i className="fa fa-facebook"></i></h6>
+        </NavLink>
         <NavLink href="https://twitter.com/CorbettsBar">
           <h6><i className="fa fa-twitter"></i></h6>
         </NavLink>
         <NavLink href="https://www.instagram.com/corbetts_bar/">
           <h6><i className="fa fa-instagram"></i></h6>
-        </NavLink>
-        <NavLink href="https://www.facebook.com/corbetts.bar/">
-          <h6><i className="fa fa-facebook"></i></h6>
         </NavLink>
       </div>
     </Nav>
