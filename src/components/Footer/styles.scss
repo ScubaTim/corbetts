@@ -3,45 +3,8 @@ $white: white;
 $orange: #f47321;
 $darkWhite: #bdc3c7;
 
-h2,h3,h4,h5,h6 {
-  font-weight: 300;
-}
-
-.white {
-  background-color: $darkWhite;
-}
-.dark-grey-text {
-  color: $darkGrey;
-}
-.orange-text {
-  color: $orange;
-}
-.contact {
-  margin: 0 1rem;
-}
-
 
 .footer {
-  padding: 2rem 1rem;
-  padding-bottom: 0.25rem;
-  margin: 0;
   background-color: $darkGrey;
   color: $white;
-  border-top: 3px solid black;
-  i {
-    color: $white;
-    font-size: 6px;
-  }
-  i:hover,
-  i:active,
-  i:focus {
-    color: $orange;
-  }
-}
-ul {
-  text-decoration: none;
-}
-ul li {
-  text-decoration: none;
-  list-style: none;
 }

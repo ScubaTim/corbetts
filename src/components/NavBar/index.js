@@ -11,10 +11,9 @@ import {
 } from "reactstrap";
 
 import CorbettsText from "../../Images/corbetts-text.png";
-
 import "./styles.scss";
 
-const NavBar = (props) => {
+const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggle = () => setDropdownOpen(!dropdownOpen);
@@ -33,7 +32,7 @@ const NavBar = (props) => {
           </DropdownMenu>
         </Dropdown>
       </div>
-      <NavbarBrand href="corbettsSportsBar.com" className="navbarBrand absoluteCenter">
+      <NavbarBrand className="navbarBrand absoluteCenter">
         <img src={CorbettsText} width='100%' alt="Corbett's logo"></img>
       </NavbarBrand>
       <div className="d-flex justify-content-between">
