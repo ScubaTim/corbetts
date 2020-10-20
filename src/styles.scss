@@ -10,6 +10,10 @@ $darkWhite: #bdc3c7 !default;
 $lightGrey: #374140 !default;
 $darkGrey: #2a2c2b !default;
 
+.orange {
+  color: $orange;
+}
+
 i {
   color: $green;
 }
@@ -52,5 +56,13 @@ h5,
 h6 {
   font-family: "Oswald";
   font-weight: 800;
+}
+
+h1 {
+  color: $green;
+}
+
+a {
+  color: $green;
 }
 

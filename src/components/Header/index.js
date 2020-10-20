@@ -14,32 +14,31 @@ const Header = () => {
       </Row>
       <Row className="my-2">
         <Col>
-          <h1>We are Open For Carry Out &#38; Delivery!</h1>
-        </Col>
-      </Row>
-      <Row className="my-2">
-        <Col>
-          <h5>Buy One Get One Free on All In-Stock Beer &#38; Wine</h5>
-          <p>
-            <em>(With any food purchase - While supplies last!)</em>
-          </p>
+          <h1>Open For Carry Out &#38; Delivery</h1>
         </Col>
       </Row>
       <Row className="mt-3">
         <Col>
-          <h5>To Place a Carry Out Order Call Us At:</h5>
           <h2 className="my-3">
             <i className="mr-2 fa fa-mobile"></i>(305) 238-0823
           </h2>
           <h5>OR</h5>
-          <h5>
+          <div>
             <a
-              href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw"
+              href="https://www.bitesdelivery.com/order/restaurant/corbetts-sports-bar--grill-menu/60"
               className="btn btn-success mt-2"
             >
-              <h2> Place an Order With Uber Eats</h2>
+              <h2> Place an Order With Bites Delivery</h2>
             </a>
-          </h5>
+          </div>
+          <p className="mt-3">Also Available On</p>
+          <div>
+            <a
+              href="https://www.ubereats.com/miami/food-delivery/corbetts-sports-bar-and-grill/p17_xWy0RZ2zZjz4Qpl0iw"
+            >
+              <h2>Uber Eats</h2>
+            </a>
+          </div>
         </Col>
       </Row>
     </Container>

@@ -329,7 +329,7 @@ const FoodMenu = () => {
       </Container>
       <Container id="drinks" className="containerStyle text-center">
         <div>
-          <h2 className="bigText">Beer &#38; Wine</h2>
+          <h1 className="bigText">Beer &#38; Wine</h1>
           <h4 className="my-4">Import, Craft, &#38; Microbrew Bottles</h4>
         </div>
         <Row xs="1" s="2" md="2" lg="2" xl="3" className="my-4 paddedList">
